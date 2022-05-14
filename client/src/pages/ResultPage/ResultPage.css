@@ -1,0 +1,30 @@
+.p_wrapperResult{
+    display: flex;
+    flex-direction:row;
+    justify-content:center;
+    padding: 10px;
+    background-color: rgb(156, 208, 254);
+    border-radius: 8px;
+    margin: 1px;    
+    width: 300px;
+    margin: 0 auto;
+
+}
+.p_itemsResult{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.button__file{
+    margin-top: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    background: rgb(0, 0, 255);
+    padding: 10px;
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:white;
+}
+.button__file:hover{
+    background: rgb(138, 138, 246);
+}

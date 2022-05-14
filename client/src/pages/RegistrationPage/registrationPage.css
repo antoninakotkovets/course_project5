@@ -1,0 +1,8 @@
+.button_reg{
+    top: 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    background: blue;
+    padding: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

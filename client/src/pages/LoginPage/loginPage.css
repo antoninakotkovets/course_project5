@@ -1,0 +1,22 @@
+.button_enter{
+    top: 80px;
+    right: 200px;
+    text-decoration: none;
+    border-radius: 5px;
+    background: rgb(0, 0, 255);
+    padding: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.textPassword{
+    left: 35px;   
+}
+.recoverLink {
+    display: block;
+    position: absolute;
+    right: 10px;
+    bottom: -32px;
+}
+
+.login__wrapper {
+    position: relative;
+}

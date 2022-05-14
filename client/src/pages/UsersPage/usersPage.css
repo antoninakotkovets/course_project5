@@ -1,0 +1,59 @@
+.p_btns {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.p_wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: rgb(156, 208, 254);
+    border-radius: 8px;
+}
+
+.p_section {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    gap: 20px;
+}
+
+.p_items {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+
+.users__roleEdit, 
+.users__delete,
+.users__edit{
+    text-decoration: none;
+    border-radius: 1px;
+    background: blue;
+    padding: 3px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    margin: 2px;
+}
+.users__edit:hover,
+.users__delete:hover, 
+.users__roleEdit:hover{
+    background:rgb(131, 131, 243);
+}
+
+.buttonUser__back{
+    position: absolute;
+    top: 15px;
+    left: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    background: blue;
+    padding: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+}
+
+
